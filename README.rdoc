@@ -21,12 +21,16 @@ Redmine wiki page macros for www.websequencediagrams.com
 
 ==== width
 
+default is `480px`
+
   {{seq(800px)
     note over A,B: text1
     :
   }}
 
 ==== style
+
+default is `patent`
 
   {{seq(800px, napkin)
     note over A,B: text1
