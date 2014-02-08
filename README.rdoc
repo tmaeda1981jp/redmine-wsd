@@ -2,6 +2,11 @@
 
 Redmine wiki page macros for www.websequencediagrams.com
 
+== Installation
+
+  $ cd /path/to/redmine/plugins
+  $ git clone git@github.com:tmaeda1981jp/redmine-wsd.git
+
 == Usage
 
   {{seq
