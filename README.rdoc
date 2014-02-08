@@ -9,7 +9,7 @@ Redmine wiki page macros for www.websequencediagrams.com
 
 == Usage
 
-  {{seq
+  {{wsd
     note over A,B: text1
     note left of A: text2
     note right of A
@@ -28,7 +28,7 @@ Redmine wiki page macros for www.websequencediagrams.com
 
 default is `480px`
 
-  {{seq(800px)
+  {{wsd(800px)
     note over A,B: text1
     :
   }}
@@ -37,7 +37,7 @@ default is `480px`
 
 default is `patent`
 
-  {{seq(800px, napkin)
+  {{wsd(800px, napkin)
     note over A,B: text1
     :
   }}

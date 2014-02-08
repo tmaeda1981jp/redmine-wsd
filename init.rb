@@ -9,7 +9,7 @@ end
 
 Redmine::WikiFormatting::Macros.register do
   desc 'Redmine wiki page macros for www.websequencediagrams.com'
-  macro :seq do |obj, args, text|
+  macro :wsd do |obj, args, text|
     raise 'Invalid arguments' if args.length > 2
     response = Net::HTTP.post_form(
       URI.parse('http://www.websequencediagrams.com/index.php'),
